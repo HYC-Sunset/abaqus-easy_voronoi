@@ -1,6 +1,7 @@
 Interactive Voronoi Seed Generator is a MATLAB GUI tool for creating 2D Voronoi seed points and thickened grain-boundary regions. It supports custom domains, multiple ROI shapes, minimum-distance seed generation, remaining-area filling, undo, visualization, and export for RVE or finite element preprocessing.
 <img width="1196" height="570" alt="image" src="https://github.com/user-attachments/assets/1585f738-856d-465b-89f5-d04084230e39" />
-<img width="1186" height="536" alt="image" src="https://github.com/user-attachments/assets/fe5a4645-fefa-413e-be10-6c6452c6aee7" />
+<img width="1375" height="780" alt="image" src="https://github.com/user-attachments/assets/708c74a1-665d-4abf-a231-a26a9a469361" />
+
 
 
 # Interactive Voronoi Seed Generator
