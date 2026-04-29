@@ -1,5 +1,7 @@
-# abaqus-easy_voronoi
 Interactive Voronoi Seed Generator is a MATLAB GUI tool for creating 2D Voronoi seed points and thickened grain-boundary regions. It supports custom domains, multiple ROI shapes, minimum-distance seed generation, remaining-area filling, undo, visualization, and export for RVE or finite element preprocessing.
+<img width="1196" height="570" alt="image" src="https://github.com/user-attachments/assets/1585f738-856d-465b-89f5-d04084230e39" />
+<img width="1193" height="576" alt="image" src="https://github.com/user-attachments/assets/c0e6bc9e-173f-4667-86b1-b4cc62b0d455" />
+
 # Interactive Voronoi Seed Generator
 
 This is an interactive Voronoi seed generation tool developed in MATLAB. It is mainly used for the rapid construction and visualization of two-dimensional polycrystalline structures, grain structures, representative volume elements (RVEs), and similar Voronoi-based geometric models.
@@ -36,9 +38,11 @@ This tool is suitable for:
 
 MATLAB R2019b or later is recommended. The program uses functions such as `polyshape`, `drawrectangle`, `drawcircle`, `drawellipse`, and `polybuffer`, so a relatively recent MATLAB version is required to support the relevant interactive graphics and geometric processing features.
 
-## Usage
+## Attention!!
+If you use this tool in your research, please cite the following publication. Thank you for your support.
+https://doi.org/10.1016/j.jmrt.2026.01.083
+During use, an activation code is required. Please send me an email at 202437682@mail.sdu.edu.cn, and I will provide you with a license.
 
-1. Run the following command in MATLAB:
 
-```matlab
-interactive_voronoi
+
+
