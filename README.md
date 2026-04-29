@@ -35,14 +35,16 @@ This tool is suitable for:
 - Microstructure modeling of composites, metals, or multiphase materials;
 - Geometry data generation for Abaqus, MATLAB, or other finite element preprocessing workflows.
 
-## Requirements
-
-MATLAB R2019b or later is recommended. The program uses functions such as `polyshape`, `drawrectangle`, `drawcircle`, `drawellipse`, and `polybuffer`, so a relatively recent MATLAB version is required to support the relevant interactive graphics and geometric processing features.
+## About pycode matlab2abaqus
+In the accompanying Python script, y_shrink_ratio is used to control the compression ratio in the y direction. Specifically, all y-coordinates of the Voronoi data are scaled down by this ratio, producing a grain morphology that is compressed along the y direction and relatively elongated along the x direction. When y_shrink_ratio = 1.0, no compression is applied; the larger the value, the flatter the grains become in the y direction.
+<img width="319" height="302" alt="image" src="https://github.com/user-attachments/assets/df39c4c8-274c-4f9f-b281-6b4406b310df" />
 
 ## Attention!!
 If you use this tool in your research, please cite the following publication. Thank you for your support.
 https://doi.org/10.1016/j.jmrt.2026.01.083
 During use, an activation code is required. Please send me an email at 202437682@mail.sdu.edu.cn, and I will provide you with a license.
+<img width="346" height="281" alt="image" src="https://github.com/user-attachments/assets/dc40068a-672b-4a68-9486-f22b7a2f41b0" />
+
 
 
 
