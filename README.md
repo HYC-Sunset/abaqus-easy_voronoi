@@ -43,9 +43,6 @@ In the accompanying Python script, y_shrink_ratio is used to control the compres
 ## Attention!!
 If you use this tool in your research, please cite the following publication. Thank you for your support.
 https://doi.org/10.1016/j.jmrt.2026.01.083
-During use, an activation code is required. Please send me an email at 202437682@mail.sdu.edu.cn, and I will provide you with a license.
-<img width="346" height="281" alt="image" src="https://github.com/user-attachments/assets/dc40068a-672b-4a68-9486-f22b7a2f41b0" />
-
 
 
 
