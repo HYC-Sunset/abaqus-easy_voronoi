@@ -92,9 +92,9 @@ Ideally, a hexagon is the most efficient unit for filling a
 two-dimensional space. If each seed point corresponds to one hexagonal
 cell, its approximate occupied area can be expressed as:
 
-\begin{equation}
+$$
 A_{\mathrm{hex}}=\frac{\sqrt{3}}{2}d^2
-\end{equation}
+$$
 
 where *d* denotes the spacing between seed points. Furthermore, for a
 region with a total area *A* and an expected number of seed points *N*,
@@ -103,7 +103,6 @@ hexagonal packing density can be derived as:
 
 $$
 d=\sqrt{\frac{2A}{\sqrt{3}N}}
-\tag{2}
 $$
 
 This formula provides a reasonable initial estimate of the point spacing
@@ -116,9 +115,9 @@ distributions. To improve the stability of the generated point set, a
 safety factor of 0.7–0.9 was introduced based on the theoretical
 spacing. Thus, the final spacing was defined as:
 $$
-d_{\min}=\eta d,\quad \eta=0.7\text{--}0.9 
-\tag{3}
+d_{\min}=\eta d,\quad \eta=0.7\text{--}0.9
 $$
+
 <img width="553" height="383" alt="image2" src="https://github.com/user-attachments/assets/12019cc7-0f56-49ed-ba0b-503023db57c1" />
 
 Fig.2. Demonstration of automatic control of seed spacing: distance
@@ -139,7 +138,6 @@ distance based on the theory of hexagonal close packing:
 
 $$
 d_{\mathrm{safe}}=\frac{d_{\min}}{2}
-\tag{4}
 $$
 
 If a seed point is too close to the boundary, namely
@@ -148,8 +146,7 @@ interior of the region to avoid extremely elongated grains caused by
 boundary truncation. The displacement of the point is given by:
 
 $$
-\delta_i=\min(d_{\min}-d_i,\delta_{\max})
-\tag{5}
+\delta_i=\min\left(d_{\min}-d_i,\delta_{\max}\right)
 $$
 
 where $\delta_{\max}=0.1\min(L_x,L_y)$ is used to limit the maximum displacement in a single adjustment, ensuring that the boundary morphology is improved without causing excessive disturbance to the overall grain distribution.
