@@ -65,8 +65,7 @@ grain-structure generation to finite element model construction can be
 achieved, providing a reliable modeling basis for subsequent
 simulations.
 
-<img src="media/media/image1.png"
-style="width:6.29861in;height:4.51944in" />
+<img width="1082" height="776" alt="image1" src="https://github.com/user-attachments/assets/9204e1c2-2f6c-4d8b-aeaa-e1e4dec8a5fd" />
 
 Fig. 1. Workflow of the Voronoi structure generation tool and its
 application in multi-morphology structure modeling
@@ -121,8 +120,7 @@ $$
 d_{\min}=\eta d,\quad \eta=0.7\text{--}0.9 
 \tag{3}
 $$
-<img src="media/media/image5.png"
-style="width:3.08011in;height:2.13324in" />
+<img width="553" height="383" alt="image2" src="https://github.com/user-attachments/assets/12019cc7-0f56-49ed-ba0b-503023db57c1" />
 
 Fig.2. Demonstration of automatic control of seed spacing: distance
 estimation based on hexagonal density
@@ -166,8 +164,7 @@ good stability. It does not rely on a complex optimization procedure and
 can be applied to different geometric regions, such as rectangular and
 circular domains.
 
-<img src="media/media/image9.png"
-style="width:4.6408in;height:1.70117in" />
+<img width="682" height="250" alt="image4" src="https://github.com/user-attachments/assets/302374dc-eb02-4650-a327-435a4fada77e" />
 
 Fig. 3. Demonstration of the automatic boundary buffering algorithm for
 improving boundary grain distortion
