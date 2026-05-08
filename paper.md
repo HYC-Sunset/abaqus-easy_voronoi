@@ -91,10 +91,11 @@ schematic illustration of the algorithm is shown in Fig. 2.
 Ideally, a hexagon is the most efficient unit for filling a
 two-dimensional space. If each seed point corresponds to one hexagonal
 cell, its approximate occupied area can be expressed as:
-$$
+
+\begin{equation}
 A_{\mathrm{hex}}=\frac{\sqrt{3}}{2}d^2
-\tag{1}
-$$
+\end{equation}
+
 where *d* denotes the spacing between seed points. Furthermore, for a
 region with a total area *A* and an expected number of seed points *N*,
 the recommended point spacing for maintaining an approximately uniform
