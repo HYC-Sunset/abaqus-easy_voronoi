@@ -114,6 +114,7 @@ the theoretical spacing to result in locally over-dense or sparse
 distributions. To improve the stability of the generated point set, a
 safety factor of 0.7–0.9 was introduced based on the theoretical
 spacing. Thus, the final spacing was defined as:
+
 $$
 d_{\min}=\eta d,\quad \eta=0.7\text{--}0.9
 $$
